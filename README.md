@@ -240,7 +240,7 @@ POST /api/recommend
 
 ---
 
-## 🧪 Running Tests
+##  Running Tests
 
 ```bash
 pytest tests/
@@ -252,7 +252,7 @@ The test suite covers:
 
 ---
 
-## ☁️ Deployment
+##  Deployment
 
 ### Heroku / Railway.app
 
@@ -268,7 +268,7 @@ Set all environment variables from `.env.example` in your hosting dashboard.
 
 ---
 
-## 🔧 Configuration Reference
+##  Configuration Reference
 
 | Variable | Default | Description |
 |---|---|---|
@@ -290,7 +290,7 @@ Set all environment variables from `.env.example` in your hosting dashboard.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Backend**: [FastAPI](https://fastapi.tiangolo.com) + [Uvicorn](https://www.uvicorn.org)
 - **Database**: [MongoDB Atlas](https://www.mongodb.com/atlas) via [Motor](https://motor.readthedocs.io) (async)
@@ -301,7 +301,7 @@ Set all environment variables from `.env.example` in your hosting dashboard.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feat/your-feature`
@@ -311,7 +311,7 @@ Set all environment variables from `.env.example` in your hosting dashboard.
 
 ---
 
-## 📄 License
+##  License
 
 This project is open source. See [LICENSE](LICENSE) for details.
 
