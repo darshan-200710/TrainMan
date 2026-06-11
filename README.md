@@ -1,6 +1,6 @@
-# 🚆 RailMan AI
+# TrainMan AI
 
-> **Smart Mumbai Railway Assistant** — AI-powered chatbot and real-time information platform for Western, Central & Harbour railway lines.
+> **Smart Mumbai Railway Assistant**  AI-powered chatbot and real-time information platform for Western, Central & Harbour railway lines.
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python)](https://python.org)
@@ -10,29 +10,29 @@
 
 ## 📖 Overview
 
-RailMan AI is a full-stack intelligent railway assistant that helps Mumbai commuters get real-time train information, crowd forecasts, journey recommendations, and natural-language answers — all in one place.
+TrainMan AI is a full-stack intelligent railway assistant that helps Mumbai commuters get real-time train information, crowd forecasts, journey recommendations, and natural-language answers all in one place.
 
 It combines a **FastAPI backend** with a **single-page web frontend** (served from the same process), an **AI chat engine** backed by a local LLM or rule-based fallback, and a **MongoDB** data layer for trains, chat history, and analytics.
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---|---|
-| 🤖 **AI Chat** | Natural-language Q&A about trains, fares, timings, and routes |
-| 🗺️ **Smart Recommendations** | Optimal train suggestions based on source, destination, time & preference |
-| 🚉 **Live Train Tracker** | Simulated real-time positions for up to 30 concurrent trains |
-| 📊 **Crowd Forecast** | 24-hour crowd prediction charts for Western, Central & Harbour lines |
-| 📚 **Train Catalogue** | Full timetable lookup across all three lines |
-| 🔐 **Auth System** | JWT-based user authentication (register / login) |
-| 💬 **Chat History** | Persistent per-session conversation memory with MongoDB |
-| ⚡ **Rate Limiting** | 30 requests/minute per IP on the chat endpoint |
-| 🔄 **Hot-reload KB** | Invalidate knowledge base cache without restarting the server |
+|  **AI Chat** | Natural-language Q&A about trains, fares, timings, and routes |
+|  **Smart Recommendations** | Optimal train suggestions based on source, destination, time & preference |
+|  **Live Train Tracker** | Simulated real-time positions for up to 30 concurrent trains |
+|  **Crowd Forecast** | 24-hour crowd prediction charts for Western, Central & Harbour lines |
+|  **Train Catalogue** | Full timetable lookup across all three lines |
+|  **Auth System** | JWT-based user authentication (register / login) |
+|  **Chat History** | Persistent per-session conversation memory with MongoDB |
+|  **Rate Limiting** | 30 requests/minute per IP on the chat endpoint |
+|  **Hot-reload KB** | Invalidate knowledge base cache without restarting the server |
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 RailMan-main/
@@ -80,7 +80,7 @@ RailMan-main/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
